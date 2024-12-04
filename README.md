@@ -2,18 +2,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
-
+1. Levantar ba de datos
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+docker compose up -d
+```
+2. Renombrar el .env.template a .env
+3. Reemplazar las variables de entorno
+Bajar bases de datos:
+```
+docker-compose down
 ```
 
+## Prisma commands
+```bash
+npx prisma init
+npx prisma migrate dev
+npx prisma generate
+```
+
+## Prod
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
