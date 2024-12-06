@@ -2,14 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-1. Levantar ba de datos
+1. Levantar la base de datos
 ```bash
 docker compose up -d
 ```
-2. Renombrar el .env.template a .env
+2. Renombrar el archivo `.env.template` a `.env`
 3. Reemplazar las variables de entorno
+4. Ejecutar el SEED para [crear la base de datos local](localhost:3001/api/seed)
+
 Bajar bases de datos:
-```
+```bash
 docker-compose down
 ```
 
