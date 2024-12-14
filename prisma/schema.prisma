@@ -21,7 +21,7 @@ model Todo {
   updatedAt DateTime @updatedAt
 }
 
-model PhraseSchema{
+model Phrases{
   id String @id @default(uuid())
   text String
   author String
