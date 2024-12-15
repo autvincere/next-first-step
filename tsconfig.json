@@ -17,7 +17,8 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next"
+        "name": "next",
+        // "name": "babel-plugin-transform-remove-console"
       }
     ],
     "paths": {

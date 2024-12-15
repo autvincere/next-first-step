@@ -23,6 +23,7 @@
     "yup": "^1.5.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "^9.16.0",
     "eslint-config-next": "^15.0.4",
     "prisma": "^4.15.0"

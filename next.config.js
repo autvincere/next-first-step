@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    //  babel: {
+    //       plugins: [
+    //         'transform-remove-console'
+    //       ]
+    //     }
+}
 
 module.exports = nextConfig
