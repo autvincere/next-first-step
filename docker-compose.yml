@@ -1,14 +1,15 @@
-version: '3'
+version: '3.8'
 
 services:
   todosDB:
     image: postgres:15.3
-    container_name: todos-todosDB
+    container_name: phrases-phrasesDB
     restart: always
     ports:
      - 5432:5432
     environment:
      - POSTGRES_USER=postgres
-     - POSTGRES_PASSWORD=postgres
+     - POSTGRES_PASSWORD=123456
+     - POSTGRES_DB=phrases-db
     volumes:
      - ./postgres:/var/lib/postgresql/data

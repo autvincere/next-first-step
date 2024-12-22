@@ -2,13 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-1. Levantar la base de datos
+1. Clonar el repositorio
+2. Renombrar el archivo `.env.template` a `.env` y cambiar las variables de entorno.
+4. Ejecutar el comando ``` npm install ```
+2. Levantar la base de datos
 ```bash
 docker compose up -d
 ```
-2. Renombrar el archivo `.env.template` a `.env`
-3. Reemplazar las variables de entorno
-4. Ejecutar el comando ``` npm install ```
 5. Ejecutar estos comandos de prisma 
 ```bash
 npx prisma migrate dev

@@ -22,7 +22,7 @@ const Card = ({ phrase = null }) => {
     }
   };
 
-  console.log("phrases", phrases?.text); // This is okay
+  // console.log("phrases", phrases?.text)
   return (
     <div className="bkg card__container">
       {phrases !== null ? (
